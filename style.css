@@ -9,14 +9,14 @@
   justify-content: center;
 }
 .image {
-  width: 50%;
+    width: 50%;
 }
 .lp-div.fade-in {
-  animation: fadeIn ease-out 10s;
-  -webkit-animation: fadeIn ease-out 10s;
-  -moz-animation: fadeIn ease-out 10s;
-  -o-animation: fadeIn ease-out 10s;
-  -ms-animation: fadeIn ease-out 10s;
+  animation: fadeIn forwards 10s;
+  -webkit-animation: fadeIn forwards 10s;
+  -moz-animation: fadeIn forwards 10s;
+  -o-animation: fadeIn forwards 10s;
+  -ms-animation: fadeIn forwards 10s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
